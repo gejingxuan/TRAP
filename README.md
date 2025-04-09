@@ -31,3 +31,7 @@ python -u train.py --data_dir [your_datasets_dir] --cdr_dir [your_cdr_feature_fi
 ## 4. Datasets
 We put the datasets used in scenarios 1 (randomly) and 2 (zero_shot) under data_split. We first split `kfold.csv` and `test.csv` according to the rules of these two scenarios, and then save the positive pair samples in `kfold.csv` (for binary classification training) as `train.csv` (for contrastive learning training).
 
+## 5. Repository
+We provide two Jupyter Notebook guides to help users get familiar with TRAP. The `repository.ipynb` guide outlines the process from data reading and feature file generation to model training and testing. The `tutorial.ipynb` guide demonstrates how to perform inference directly using the trained model parameters.
+
+
